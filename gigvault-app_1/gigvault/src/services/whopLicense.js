@@ -15,7 +15,7 @@ import * as Application from 'expo-application';
 import { getSetting, setSetting } from '../db/database';
 
 // TODO: replace with your deployed proxy URL once you deploy /serverless/whop-verify.js
-const PROXY_URL = 'https://your-actual-vercel-url.vercel.app/api/verify-license';
+const PROXY_URL = 'https://gigvault-app.vercel.app/api/verify-license';
 
 async function getDeviceId() {
   // Stable per-install identifier used as Whop's "metadata" binding, so a
